@@ -1,6 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
+
+
 // Connect to the MongoDB database
 mongoose.connect('mongodb+srv://sahil:sahilmalviya@cluster0.hhowf26.mongodb.net/Unit5ev2?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to the database'))
