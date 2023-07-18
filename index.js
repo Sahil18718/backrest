@@ -67,6 +67,10 @@ app.post('/register', async (req, res) => {
   }
 });
 
+
+
+
+
 // Create quiz route
 app.post('/quizzes', async (req, res) => {
   try {
