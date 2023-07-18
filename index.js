@@ -30,6 +30,9 @@ const quizSchema = new mongoose.Schema({
   ],
 });
 
+
+
+
 const leaderboardSchema = new mongoose.Schema({
   quiz: { type: mongoose.Schema.Types.ObjectId, ref: 'Quiz' },
   email: { type: String, required: true },
