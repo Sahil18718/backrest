@@ -14,9 +14,6 @@ const userSchema = new mongoose.Schema({
   email: { type: String, required: true, unique: true },
 });
 
-
-
-
 const quizSchema = new mongoose.Schema({
   creator: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   title: { type: String, required: true },
