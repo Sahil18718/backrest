@@ -46,3 +46,47 @@ function startQuiz() {
 
 // Start the quiz
 startQuiz();
+
+
+const x = 10;
+let y = "hello";
+
+function add(a, b) {
+    return a + b;
+}
+
+for (let i = 0; i < 5; i++) {
+    console.log("Loop iteration:", i);
+}
+
+if (x === 10) {
+    console.log("x is equal to 10");
+} else {
+    console.log("x is not equal to 10");
+}
+
+while (y.length < 20) {
+    y += "world";
+}
+
+const z = [1, 2, 3];
+const doubled = z.map(item => item * 2);
+
+const person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+};
+
+const result = add(5, 7);
+
+function factorial(n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+console.log("Factorial of 5:", factorial(5));
+
+
